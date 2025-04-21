@@ -1,0 +1,7 @@
+****SMOTE équilibre les données pour éviter que le modèle soit biaisé lors de l'entraînement, et class_weight='balanced' s'assure que les poids dans la fonction de perte reflètent toujours les proportions des classes dans les données réelles
+
+
+*****classe majoritaire=0(churn 9a3ed)
+classe minoritaire=1(churn 5raj)
+
+****SMOTEENN: Combine le renforcement des classes minoritaires (SMOTE) avec la suppression des anomalies (ENN)

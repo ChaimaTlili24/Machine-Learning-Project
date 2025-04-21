@@ -1,0 +1,10 @@
+pip freeze > requirements.txt
+python -m venv venv
+venv\Scripts\activate
+pip install flask
+pip install numpy
+pip install scikit-learn
+pip install joblib
+pip install pandas
+pip freeze > requirements.txt
+python app.py
